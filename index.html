@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>R.M PortfolioSite</title>
+    <meta name="description" content="R.Mのポートフォリオサイトです">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/ico" href="images/corgi-vector.svg">
+
+    <!-- reset.css ress -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css"/>
+
+    <!-- Googleフォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- オリジナルのcss -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- スクリプトの呼び出し -->
+    <script src="js/script.js" defer></script>
+
+    <img id="scroll-to-top" src="images/cat-vector.svg" alt="Topへ戻るボタン">
+</head>
+
+<body>
+    <!-- ヘッダーここから -->
+    <header id="header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.svg" alt="ロゴ"></a>
+            </div>
+            <nav class="font-english">
+                <a href="#about" class="nav-item">About</a>
+                <a href="#skills" class="nav-item">Skills</a>
+                <a href="#gallery" class="nav-item">Gallery</a>
+                <a href="contact.html" class="nav-item">Contact</a>
+            </nav>
+            <div class="menu-icon">&#9776;</div>
+        </div>
+    </header>
+    <div class="overlay font-english">
+        <a href="#about" class="nav-item">About</a>
+        <a href="#skills" class="nav-item">Skills</a>
+        <a href="#gallery" class="nav-item">Gallery</a>
+        <a href="contact.html" class="nav-item">Contact</a>
+    </div>
+    <!-- コンテンツここから -->
+    <main>
+        <div class="fade-in-section">
+            <h1 class="title-text">R.M PortfolioSite</h1>
+        </div>
+        <div id="about" class="about-content fade-in-section">
+            <article  class="about wrapper single-column">
+                <img src="images/Profile.webp" alt="姫路城" class="img-radius column profile fade-in-section">
+                <div class="text-background column fade-in-section">
+                    <h2 class="font-english flying-text" data-speed="0.2">About</h2>
+                    <div class="border-left">
+                        <p>松原 稜</p>
+                        <h3>RYO MATSUBARA</h3>
+                    </div>
+                    <p class="fade-in-section">1990年、兵庫県姫路市生まれ。誕生日はクリスマス</p>
+                    <p class="fade-in-section">趣味でイラスト、動画制作、3Dモデリング、プログラミングを使用した創作活動を行う</p>
+                    <p class="fade-in-section">現在はプログラマーを目指し職業訓練校でJavaを学習中</p>
+                    <p class="fade-in-section">新しく何かを始めることが好きで、独学でこのポートフォリオサイトを作ってフロントエンドの勉強中</p>
+                    <p class="fade-in-section">何でも楽しく取り組めるので、このサイト作りもかなり楽しかったです</p>
+                </div>
+            </article>
+        </div>
+        <div  id="skills" class="skills-content">
+            <h2 class="font-english flying-text" data-speed="0.2">Skills</h2>
+            <section class="skills wrapper">
+                <div class="text-background column fade-in-section">
+                    <div class="border-left"><h3>フォトレタッチ、イラスト</h3></div>
+                    <div class="image-editing">
+                        <img src="images/Skills/AffinityPhoto.svg" alt="AffinityPhoto" class="column fade-in-section skills-icon-size">
+                        <img src="images/Skills/AffinityDesigner.svg" alt="AffinityDesigner" class="column fade-in-section skills-icon-size">
+                        <img src="images/Skills/PaintToolSAI.png" alt="PaintToolSAI" class="column fade-in-section skills-icon-size">
+                        <p class="fade-in-section">Affinity Photo、Affinity Designer、PaintToolSAIを使用</p>
+                        <p class="fade-in-section">主に他の創作活動で必要になる素材の作成や、コンテンツの販売用POPの作成で活用</p>
+                        <p class="fade-in-section">当サイトのロゴやTOPに戻るボタンは自分で描いたもの</p>
+                    </div>
+                </div>
+                <div class="text-background column fade-in-section">
+                    <div class="border-left"><h3>動画制作</h3></div>
+                    <img src="images/Skills/AviUtl.png" alt="AviUtl" class="column fade-in-section skills-icon-size">
+                    <p class="fade-in-section">AviUtlを使用</p>
+                    <p class="fade-in-section">趣味でゲーム動画の投稿を行っていた際に活用</p>
+                    <p class="fade-in-section">ニコニコ動画では再生回数10万回を超える動画を作成することができた</p>
+                </div>
+                <div class="text-background column fade-in-section">
+                    <div class="border-left"><h3>3Dモデリング</h3></div>
+                    <img src="images/Skills/Blender.svg" alt="Blender" class="column fade-in-section skills-icon-size">
+                    <p class="fade-in-section">Blenderを使用</p>
+                    <p class="fade-in-section">メタバース「Second Life」にてコンテンツを販売するために活用</p>
+                    <p class="fade-in-section">家、家具、ぬいぐるみ、武器等。興味のあるものは手当たり次第作ったため、物の構造の理解が進んだ</p>
+                </div>
+            </section>
+        </div>
+        <div id="gallery" class="gallery-content">
+            <section class="wrapper single-column">
+                <div class="text-background column fade-in-section">
+                    <h2 class="font-english flying-text" data-speed="0.2">Gallery</h2>
+                    <div class="gallery-container">
+                        <button class="prev" onclick="scrollGallery(-1)">&#10094;</button>
+                        <div class="gallery">
+                            <img src="images/Gallery/book1.webp" alt="スケルトンが宿る本" data-comment="タッチで開閉できる本。魔法が使えるプログラムが入っており、魔法使用中は真ん中の宝石が赤く光る">
+                            <img src="images/Gallery/book2.webp" alt="スケルトンが宿る本" data-comment="本を開くと半透明なスケルトンが現れる。本に宿っている設定">
+                            <img src="images/Gallery/book3.webp" alt="スケルトンが宿る本" data-comment="上から見た図。海外の人にバズり、ハロウィンの時期によく売れていた">
+                            <img src="images/Gallery/house1.webp" alt="70年代アメリカ風の家" data-comment="70'sのアメリカを参考に作った家。約12畳ほどの大きさ">
+                            <img src="images/Gallery/house2.webp" alt="70年代アメリカ風の家" data-comment="天井に張り巡らされたパイプから電線が垂れ下がっているのが拘りポイント">
+                            <img src="images/Gallery/house3.webp" alt="70年代アメリカ風の家" data-comment="木材のテクスチャ選択が難しかったが、最終的にはまとまった雰囲気になったと思う">
+                            <img src="images/Gallery/weapon1.webp" alt="変形する武器" data-comment="振り回すタイプの武器。棍棒状と傘状に変形するプログラムが入っている">
+                            <img src="images/Gallery/weapon2.webp" alt="変形する武器" data-comment="傘状にすると先端からビームがでる。自分が作ったものはだいたい変形する。かっこいいので">
+                            <img src="images/Gallery/softtoy1.webp" alt="鳥のぬいぐるみ" data-comment="当時シマエナガにハマり作ったぬいぐるみ。可愛いものも好き">
+                            <img src="images/Gallery/softtoy2.webp" alt="犬のぬいぐるみ" data-comment="白い犬の抱き枕をイメージして作ったが、シロクマとよく間違われる">
+                            <img src="images/Gallery/desc1.webp" alt="ウッドデッキにおいてある机" data-comment="普通の家具も作成">
+                            <img src="images/Gallery/snowman1.webp" alt="雪だるま" data-comment="雪玉をぶつけると雪だるまに変化する雪合戦プログラム用オブジェクト。冬になると遊ばれている">
+                        </div>
+                        <button class="next" onclick="scrollGallery(1)">&#10095;</button>
+                    </div>
+                    <div class="comment">
+                        <p id="image-comment">タッチで開閉できる本。魔法を使えるプログラムが入っており、魔法を使うと真ん中の宝石が赤く光る</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <!-- フッターここから -->
+    <footer id="footer">
+    <p class="copyright">&copy; 2024 Ryo Matsubara</p>
+    </footer>
+</body>
+</html>

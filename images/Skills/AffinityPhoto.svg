@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-1650,-1500)">
+        <g id="Icon__AffinityPhoto__PhotoPersona" transform="matrix(1.15207,0,0,1.15207,1650,-255.76)">
+            <rect x="0" y="1524" width="434" height="434" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="0" y="1524" width="434" height="434"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g id="RectangleMask" transform="matrix(1.13021,0,0,1.13021,-46.3385,1503.66)">
+                    <rect x="41" y="18" width="384" height="384" style="fill:rgb(242,143,255);"/>
+                </g>
+                <g transform="matrix(1.13021,0,0,1.13021,-491.641,1524)">
+                    <path d="M518.593,144.5L423,311L424.951,-6L605,-6L593.836,13.445L687.249,175.596L799.988,-17.777L812.947,-10.223L668.522,237.5L831.468,237.5L831.468,252.5L609.872,252.5L684.996,385.307L671.94,392.693L566.121,205.621L456.946,392.779L443.989,385.221L584.41,144.5L518.593,144.5ZM579.212,183.179C576.524,187.788 576.486,193.478 579.113,198.122C584.041,206.834 592.125,221.126 597.08,229.885C599.742,234.591 604.73,237.5 610.136,237.5C619.258,237.5 633.467,237.5 642.541,237.5C647.877,237.5 652.811,234.665 655.499,230.055C660.607,221.294 669.039,206.83 674.163,198.041C676.871,193.396 676.886,187.657 674.202,182.999C669.273,174.442 661.276,160.561 656.352,152.012C653.674,147.364 648.718,144.5 643.354,144.5L610.391,144.5C605.056,144.5 600.122,147.334 597.434,151.942C592.422,160.535 584.225,174.586 579.212,183.179ZM585.195,28.495L527.205,129.5L643.383,129.5L585.195,28.495Z" style="fill:rgb(113,64,194);"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
